@@ -15,7 +15,7 @@
 
     <div class="row header-container justify-content-center">
       <div class="header">
-        <h1>Student Registration Information</h1>
+        <h1>Student Registration form</h1>
       </div>
     </div>
 
