@@ -21,6 +21,15 @@ section{
   padding: 6rem 0;
 }
 
+section img {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 2vw auto;
+  border-radius: 10px;
+}
+
 a{
   text-decoration: none;
   color: #eee;
