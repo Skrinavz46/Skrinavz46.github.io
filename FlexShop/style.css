@@ -144,6 +144,8 @@ body{
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+
+}
 }
 #hero h4{
 padding-bottom: 5px;
