@@ -198,6 +198,7 @@ padding-bottom: 5px;
 }
 #product1{
   text-align: center;
+  background-image: url("logobox/bg.png");
 }
 .product-container{
   padding-top: 30px;
@@ -213,6 +214,7 @@ padding-bottom: 5px;
   transition: 0.2 ease;
   margin:15px 0;
   position: relative;
+  background-color: #fff;
 
 
 }
@@ -223,6 +225,11 @@ padding-bottom: 5px;
 #product1 .prod .star{
   text-align: start;
   padding: 10px 0;
+}
+#product1 h2,
+#product1 p{
+  color: white;
+  font-style: normal;
 
 }
 #product1 .prod img{
@@ -729,6 +736,8 @@ h2{
 }
 #product1 .prod {
     width: 100%;
+}
+
 }
 #newsupdate .form {
     width: 100%;
