@@ -134,11 +134,11 @@ body{
 }
 /* The home Page */
 #hero{
-  background-color: #F2F3F4;
-  height: 90vh;
+  background-image: url("Images/9050565.png");
+  height: 80vh;
   width: 100%;
   background-size: cover;
-  background-position: top 25% right 0 ;
+  background-position: top 25% right 0 left 50%;
   padding: 0 100px;
   display: flex;
   align-items: flex-start;
@@ -149,11 +149,15 @@ body{
 }
 #hero h4{
 padding-bottom: 5px;
+color: white;
 
 }
 #hero h1{
-  color: #088178;.
-  padding-left: 40px;
+  color: #088178;
+}
+#hero h2{
+  color: white;
+  background-color: skyblue;
 }
 #hero button{
   background-image: url("images/Button.png");
@@ -276,6 +280,45 @@ padding-bottom: 5px;
   padding: 20px;
   flex-wrap: wrap;
 }
+/* Job Page Section*/
+#job-hero{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: grid;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10vh;
+}
+
+.job{
+    background-color: #e8e4c9;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-bottom: 5vh;
+}
+.job button{
+  background-color: #088178;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+.job-description p{
+  padding-bottom: 10px;
+}
+
+.job-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-title h2{
+  font-size: 25px;
+}
+
+
 footer{
   display: flex;
   flex-wrap: wrap;
@@ -383,6 +426,57 @@ footer .copyrights{
   width: 40%;
 }
 /*Shope Pages */
+#top-hero{
+  background-image: url("Images/jbanner.png");
+  width: 100%;
+  height: 40vh;
+  background-position: top -20% right 0 left 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 80px;
+}
+#top-hero h1{
+  color: black;
+  text-align: center;
+  font-family: serif;
+}
+#top-hero p{
+  font-weight: 900;
+  font-family: serif;
+  padding-bottom: 5px;
+}
+#top-hero button{
+  background-color: #088178;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+#job-offer{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10vh;
+}
+#job-offer h1{
+  font-weight: 700;
+  font-size: 30px;
+}
+#job-offer a{
+  text-decoration: none;
+  color: black;
+}
+
+
 #top-header{
   background-image: url("Images/Top.png");
   width: 100%;
@@ -443,12 +537,7 @@ footer .copyrights{
 }
 #prodetails .single-pro-details span{
 line-height: 20px;
-}
-
-#prodetails .single-pro-details .click{
-  margin-top: 10px;
-  margin-right: 10px;
-  text-decoration: none;
+padding-bottom: 100px;
 }
 
 #prodetails .single-pro-image{
@@ -711,9 +800,36 @@ line-height: 20px;
   }
 
 #hero {
-    padding: 0 20px;
-    background-position: 55%;;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    background-image: url("Images/hero201.png");
 }
+
+#page-header p {
+    color: white;
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#hero h1, h2, button{
+  display: none;
+}
+#hero h4{
+padding-left: 20px;
+display: flex;
+margin-bottom: 350px;
+background-color: white;
+font-size: 30px;
+font-weight: 400;
+font-family: fantasy;
+}
+
 #header{
   padding: 0 20px;
 }
@@ -737,7 +853,8 @@ h2{
 #product1 .prod {
     width: 100%;
 }
-
+#form-details button{
+  display: flex;
 }
 #newsupdate .form {
     width: 100%;
@@ -802,4 +919,48 @@ padding: 0;
 #form-details form {
     width: 100%;
 }
+
+#top-hero {
+    text-align: center;
+    font-family: serif;
+    padding-left: 0;
+}
+#top-hero button{
+    display: flex;
+    margin-left: 120px;
+}
+#top-hero p {
+    display: flex;
+    padding-left: 60px;
+}
+.job{
+    background-color: #e8e4c9;
+    justify-content: space-between;
+    padding-bottom: 5vh;
+    padding-right: 10px;
+}
+.job p{
+  text-align: left;
+}
+#job-hero{
+  margin: 0;
+}
+#job-hero h2{
+  display: flex;
+  font-size: 20px;
+}
+#job-hero button{
+  display: flex;
+}
+#job-offer{
+  margin: 0 10px 5px 10px;;
+}
+
+#job-offer h1 {
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
 }
