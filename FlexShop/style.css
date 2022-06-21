@@ -461,6 +461,28 @@ footer .copyrights{
   align-items: center;
   margin-top: 10vh;
 }
+#dis-list ul{
+  margin-left: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#dis-list li{
+  list-style: none;
+}
+#dis-list li a{
+  padding-left: 10px;
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+#dis-list h1{
+  font-size: 20px;
+  color: #ffff;
+}
+
+
 #job-offer h1{
   font-weight: 700;
   font-size: 30px;
