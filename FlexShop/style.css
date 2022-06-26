@@ -815,6 +815,10 @@ padding-bottom: 100px;
     padding: 20px;
   }
 
+.job p{
+  display: flex;
+}
+
 #hero {
     width: 100%;
     background-size: cover;
